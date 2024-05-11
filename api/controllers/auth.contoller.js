@@ -104,6 +104,7 @@ export const google = async (req, res, next) => {
           })
           .json(rest);
       }
+      console.log(googlePhotoUrl)
     } catch (error) {
       next(error);
     }
